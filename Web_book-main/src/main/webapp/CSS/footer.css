@@ -1,0 +1,90 @@
+#footer .fab, .fas {
+    font-size: 20px;
+    color: #000;
+}
+
+.footer-container {
+    background-color: #ffffff;
+}
+
+.container-in {
+    padding-top: 2rem;
+    margin: 5rem 10% 0;
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-ct {
+    float: left;
+    flex-basis: 40%;
+}
+
+.footer-detail .fab, .fas {
+    padding-right: 0.5rem;
+    margin-left: -0.5rem;
+}
+
+.footer-side {
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-side-col {
+    flex-basis: 50%;
+}
+
+.footer-title {
+    margin: 0;
+    padding-left: 3rem;
+
+}
+
+.footer-detail {
+    line-height: 1.8;
+    padding: 0 0.5rem;
+}
+
+.footer-detail li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.footer-detail li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-detail a i:hover {
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 740px) {
+    html {
+        font-size: 12px;
+    }
+
+    .container-in{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .footer-title{
+        padding: 0;
+    }
+
+    .footer-ct{
+        border-right: none;
+    }
+
+    .footer-side{
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+
+    .footer-detail {
+        display: none;
+    }
+}

@@ -1,0 +1,410 @@
+.titleforPhone {
+    display: none;
+}
+
+.address {
+    position: relative;
+    margin: 6.5rem 0 4rem 0;
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.changeAddress {
+    padding-right: 10%;
+}
+
+.content{
+    width: 100%;
+    height: max-content;
+    display: inline-flex;
+    position: relative;
+    gap: 3%;
+}
+
+.cart {
+    height: max-content;
+    display: inline-flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.fas{
+    font-weight: bolder;
+}
+
+.content-cart{
+    display: flex;
+    width: 23%;
+    border-left: 2px dashed #41644A;}
+
+.btn-checkout{
+    place-items: center;
+    margin-top: 23px;
+}
+.nav-cart{
+    width: max-content;
+    margin:auto;
+}
+.table-cart{
+    width: 100%;
+    height: max-content;
+    position: relative;
+    margin-top: 20px;
+}
+
+.table-head{
+    margin: 0;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    color: #263A29;
+    font-weight: 600;
+    border-bottom: 2px solid #41644A;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemName {
+    width: 26%;
+    display: flex;
+}
+
+.itemCenter {
+    justify-content: center;
+}
+
+.itemCate {
+    width: 15%;
+}
+
+.itemBuyNow, .itemPrice {
+    width: 12%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.info_product{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.item {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0.5rem 0;
+}
+
+.count{
+    display: flex;
+    flex-direction: column;
+}
+
+.removeItem{
+    width: 10%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.removeItem > a > svg:hover {
+    width: 28px;
+    height: 28px;
+}
+
+.btn-incre, .btn-decree {
+    width: 12px;
+    height: 12px;
+    border-radius: 5px;
+    background-color: #F2E3DB;
+    color: #41644A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+.form-control {
+    display: inline-flex;
+    width: 5rem;
+    height: 1.75rem;
+    border: 1px #F2E3DB solid;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+}
+
+.quantity > label > input:focus {
+    outline: none;
+    cursor: context-menu;
+}
+
+.form-group{
+    display: inline-flex;
+    align-items: center;
+}
+
+.quantity {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 25%;
+    align-items: center;
+}
+
+.deliveryInformation {
+    padding: 5% 0 0 1rem;
+    height: max-content;
+}
+
+.totalPrice {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    height: max-content;
+    gap: 0.4rem;
+}
+
+.name {
+    color: #41644A;
+    font-size: 1.25rem;
+}
+
+.value {
+    font-size: 1.5rem;
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    cursor: pointer;
+}
+
+.buy > a > button {
+    width: 7rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    border: 1px solid #41644A;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy > a > button:hover {
+    background-color: #263A29;
+    color: #f6f1f1;
+}
+
+.btn-buy > button {
+    border: 0;
+    background-color: #f6f1f1;
+    cursor: pointer;
+    padding-bottom: 0;
+}
+
+.btn-buy > button > svg:hover {
+    opacity: 0.8;
+}
+
+.table-cart-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 931px) {
+
+    .content {
+        gap: 2%;
+    }
+
+    .cart {
+        width: 76%;
+    }
+
+    .btn-incre, .btn-decree {
+        width: 10px;
+        height: 10px;
+        font-size: 1.25rem;
+    }
+
+    .form-control {
+        width: 4.75rem;
+        height: 1.5rem;
+        font-size: 0.75rem;
+    }
+
+    .removeItem > a> svg, .itemBuyNow .btn-buy > svg {
+        width: 23px;
+        height: 23px;
+    }
+
+    .itemCate {
+        width: 13%;
+    }
+
+    .quantity{
+        width: 27%;
+    }
+
+    .table-head {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 730px) {
+
+    .titleforPhone {
+        display: block;
+        position: relative;
+        top: 6rem;
+        width: 100%;
+        height: 10%;
+        margin-bottom: 3rem;
+    }
+
+    .title {
+        display: inline-flex;
+        align-items: baseline;
+        margin: 0 10%;
+        gap: 0.5rem;
+    }
+
+    .cartName {
+        font-size: 1.5rem;
+        color: #263A29;
+    }
+
+    .address, .deliveryInformation, .table-head, .itemCate {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+
+    .cart {
+        width: 100%;
+        margin: 0;
+    }
+
+    .list_items {
+        margin: 0 10%;
+    }
+
+    .itemName {
+        width: 33%;
+    }
+
+    .itemPrice {
+        width: 14%;
+    }
+
+    .content-cart {
+        width: 100%;
+        border: 0;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .table-cart-right {
+        margin: 2% 10% 5%;
+    }
+
+    .quantity {
+        width: 31%;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+
+    .container {
+        margin: 0;
+    }
+
+    .itemPrice {
+        width: 12%;
+    }
+
+    .itemName {
+        width: 35%;
+    }
+
+    .btn-incre, .btn-decree {
+        width: 8px;
+        height: 8px;
+        font-size: 1.2rem;
+    }
+
+    .form-control {
+        width: 3rem;
+        height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .removeItem > a> svg, .itemBuyNow .btn-buy > svg {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    .container {
+        margin: 0;
+    }
+
+    .itemPrice, .itemName {
+        font-size: 10px;
+    }
+
+    .btn-incre, .btn-decree {
+        width: 6px;
+        height: 6px;
+        font-size: 1rem;
+    }
+
+    .form-control {
+        width: 2.5rem;
+        height: 1.35rem;
+        font-size: 0.75rem;
+    }
+
+    .removeItem > a> svg, .itemBuyNow .btn-buy > svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .quantity {
+        width: 33%;
+    }
+
+    .itemName {
+        width: 31%;
+    }
+
+    .itemBuyNow {
+        width: 13%;
+    }
+
+    .removeItem {
+        width: 11%;
+    }
+
+}

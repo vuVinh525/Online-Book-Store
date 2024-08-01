@@ -1,0 +1,151 @@
+.container-managerbook {
+    width: 75%;
+    float: right;
+}
+
+.thong-ke{
+    float: left;
+    width: 17%;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    transform: translateY(28rem);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    font-size: 20px;
+    margin: 0 4rem 0 0.5rem;
+    position: fixed;
+}
+
+.thong-ke .title {
+    background: #f97d00;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.tk-content {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+.container-ct {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+    padding: 2rem;
+    top: 4rem;
+    background: #ffffff;
+    transform: translateX(-1.25rem);
+}
+
+.table-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+}
+
+.table-item .table-head {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-around;
+    padding: 1rem 0;
+    background: #41644A;
+    color: #ffffff;
+    margin: 0;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.table-item .table-col {
+    flex: 1;
+    text-align: center;
+}
+
+.item-ct {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding: 1rem 0.5rem;
+}
+
+.table-content {
+    padding: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.table-content img {
+    max-width: 100%;
+    height: 9rem;
+}
+
+.item-ct .fas {
+    color: #f94144;
+}
+
+.table-action {
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.table-action:hover{
+    opacity: 0.6;
+}
+
+.btn-success, .btn-primary {
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #f94144;
+    color: #ffffff;
+    margin: 0 0.5rem;
+}
+
+.btn-checkout {
+    margin: 2rem 0;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 2rem
+}
+
+.btn-success:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+/*Phân trang*/
+.pagination {
+    font-size: 20px;
+    margin-top: 1rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination a {
+    color: #666666;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    margin: 0.25rem;
+    float: left;
+    width: 2rem;
+    height: 2rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.pagination a:hover {
+    opacity: 0.8;
+}
